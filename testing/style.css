@@ -22,7 +22,8 @@ header h3,h1 {
 
 header {
      height: 140px;
-     margin-top: -15px;
+     margin-top: -25px;
+     margin-bottom: -25px;
      /*background-image: url("pics/bg.jpg");*/
      background-image: url(pics/kb3.png);
      background-repeat: no-repeat;
@@ -52,7 +53,7 @@ main:after {
     clear:both;
 }
 footer {
-    background-color: #2e2713;
+    background-color: #2f3036;
     text-align: center;
     padding: 15px;
     clear: both;
@@ -72,7 +73,8 @@ nav {
 }
 nav ul {
   list-style-type: none;
-  background-color: #444;
+  /*background-color: #444444;*/
+  background-color: #2f3036;
   text-align: center;
   padding: 0px;
   margin: 0px;
@@ -87,15 +89,15 @@ nav li {
   text-align: left;
   display: inline-block;
   float: center;
-  margin-right: 1px;
+  margin-right: 0px;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
   display: block;
-  padding-left: 15px;
-  border-bottom: 1px solid #888;
+  padding-left: 0px;
+  border-bottom: 0px solid #888;
   transition: .3s background-color;
 }
 
@@ -103,9 +105,9 @@ nav li a {
     float: center;
     display:block;
     min-width:140px;
-    height: 50px;
+    height: 40px;
     text-align: center;
-    line-height: 50px;
+    line-height: 40px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
     background: #2f3036;
@@ -114,19 +116,20 @@ nav li a {
 
 /*Hover state for top level links*/
 nav li:hover a {
-    background: #19c589;
+    background: #1997C6;
 }
 /*Style for dropdown links*/
 nav li:hover ul a {
-    background: #f3f3f3;
-    color: #2f3036;
+    background: #2f3036;
+    color: #f3f3f3;
     height: 40px;
     line-height: 40px;
+    text-align: left;
 }
 /*Hover state for dropdown links*/
 nav li:hover ul a:hover {
-    background: #19c589;
-    color: #fff;
+    background: #2f3036;
+    color: #1997C6;
 }
 /*Hide dropdown links until they are needed*/
 nav li ul {

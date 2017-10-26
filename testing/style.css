@@ -148,6 +148,7 @@ nav a.active {
   background-color: #aaa;
   color: #444;
   cursor: default;
+  border-bottom: 2px solid #1997C6;
 }
 
 /* Sub Menus */
@@ -176,7 +177,56 @@ nav input[type=checkbox]{
 nav input[type=checkbox]:checked ~ #menu{
     display: block;
 }
+#categories {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+        padding:20px;
+}
+/*NAV-LOCAL START*/
+nav.nav-local {
+    float: left;
+    line-height:10px;
+    /*letter-spacing: 1px;*/
+    width: 98%;
+    height: 15px;
+    margin: 25px 10px;
+    padding: 5px;
+    background-color: #aaa;
+    color: #444;
+    position: absolute;
+    top: 120px;
 
+}
+nav ul.nav-local {
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 0px;
+
+}
+nav ul.nav-local li {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 1px;
+
+}
+nav ul.nav-local a {
+    display: block;
+    text-decoration: none;
+    padding: 0px;
+    color: #EBDEB4;
+    background: #574306;
+}
+nav ul.nav-local a:link {
+    color: #EBDEB4;
+}
+nav ul.nav-local a:visited {
+    color: #B2AC97;
+}
+nav ul.nav-local a:hover {
+    color: #906D00;
+}
+/* NAV LOCAL END*/
 #firstQ {
     background-color: #51482C;
     border-radius: 20px;

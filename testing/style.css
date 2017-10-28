@@ -188,26 +188,27 @@ nav.nav-local {
     float: left;
     line-height:10px;
     /*letter-spacing: 1px;*/
-    width: 98%;
+    width: 99%;
     height: 15px;
-    margin: 25px 10px;
+    margin: 25px 0px;
     padding: 5px;
-    background-color: #aaa;
+    /*background-color: #aaa;*/
     color: #444;
     position: absolute;
     top: 120px;
-
+    border-bottom:1px solid #999; padding-top:10px;
 }
 nav ul.nav-local {
+    background-color: #aaa;
     list-style-type: none;
     padding: 0px;
-    padding-left: 0px;
+    padding-left: 15px;
 
 }
 nav ul.nav-local li {
     display: block;
-    margin-right: 0px;
-    margin-bottom: 1px;
+    margin-right: 5px;
+    margin-bottom: 25px;
 
 }
 nav ul.nav-local a {
@@ -215,7 +216,8 @@ nav ul.nav-local a {
     text-decoration: none;
     padding: 0px;
     color: #EBDEB4;
-    background: #574306;
+    font-size: 14px;
+    /*background-color: #574306;*/
 }
 nav ul.nav-local a:link {
     color: #EBDEB4;

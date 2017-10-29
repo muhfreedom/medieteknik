@@ -3,47 +3,46 @@
 <html>
 
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scal=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css?family=lato" rel="stylesheet">
-        <title>shop</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <title>Vad är ett mekaniskt tangengbord?</title>
         </head>
 
     <body>
         <div id="wrapper">
         <header>
-            <h1 id="logotext">keyboardguide</h1>
+            <h1 id="logoText">KEYBOARDGUIDE</h1>
         </header>
-        <!-- global navigation testing begin -->
+        <!-- GLOBAL NAVIGATION TESTING BEGIN -->
         <nav>
-            <label for="show-menu" class="show-menu">show menu</label>
+            <label for="show-menu" class="show-menu">Show Menu</label>
             <input type="checkbox" id="show-menu" role="button">
               <ul id="menu">
-                 <li><a href="#">hem</a>
+                 <li><a href="#" class="active">Hem</a>
                       <ul class="hidden">
-                        <li><a href="aboutmechkb.html">vad är ett mekaniskt tangentbord?</a></li>
-                        <li><a href="guide.html">guide</a></li>
+                        <li><a href="aboutmechkb.html">Vad är ett mekaniskt tangentbord?</a></li>
+                        <li><a href="guide.html">Guide</a></li>
                       </ul>
                  </li>
-                    <li><a href="shop.html" class="active">shop</a>
+                    <li><a href="shop.html">Shop</a>
                       <ul class="hidden">
-                        <li><a href="#">mekaniska tangentbord</a></li>
-                        <li><a href="#">brytare</a></li>
-                        <li><a href="#">tillbehör</a></li>
+                        <li><a href="#">Mekaniska tangentbord</a></li>
+                        <li><a href="#">Brytare</a></li>
+                        <li><a href="#">Tillbehör</a></li>
                       </ul>
                     </li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">more stuff</a>
+                <li><a href="#">About</a></li>
+                <li><a href="#">More Stuff</a>
                   <ul class="hidden">
-                    <li><a href="#">stuff #1</a></li>
-                    <li><a href="#">stuff #2</a></li>
-                    <li><a href="#">stuff #3</a></li>
+                    <li><a href="#">Stuff #1</a></li>
+                    <li><a href="#">Stuff #2</a></li>
+                    <li><a href="#">Stuff #3</a></li>
                   </ul>
                 </li>
-                <li class="contact"><a href="#">contact</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
               </ul>
-        <!-- old local nav -->
             <ul class="nav-local">
             <span id="categories">kategorier</span>
                 <li class="local-link"><a href="#">mekaniska tangentbord</a></li>
@@ -51,13 +50,26 @@
                 <li class="local-link"><a href="#">tillbehör</a></li>
             </ul>
         </nav>
-        <!--global navigation testing end -->
+
+        </nav>
+        <!--GLOBAL NAVIGATION TESTING END -->
 
         <main>
         <h2>Populära tangentbord</h2>
         <div class="item-popular">
             <div class="item-popular-img">
-                <img src="pics/keyboard_disco_small.png">
+                <img src="pics/keyboard_disco_small.png" id="floatImgLeft">
+            </div>
+            <article>
+                <p class="item-title"><a href="generic-keyboard.html">generic keyboard title</a></p>
+                <p class="item-content">perfekt för gaming och att arbeta på. trevliga features är taktila, clicky brytare för att få en skön känsla
+                tillsammans med trevligt ljud.</p>
+                <label class="item-price">pris: 1199kr</label>
+            </article>
+        </div>
+        <div class="item-popular">
+            <div class="item-popular-img">
+                <img src="pics/keyboard_disco_small.png" id="floatImgLeft">
             </div>
             <article>
                 <p class="item-title">generic keyboard title</p>
@@ -68,18 +80,7 @@
         </div>
         <div class="item-popular">
             <div class="item-popular-img">
-                <img src="pics/keyboard_disco_small.png">
-            </div>
-            <article>
-                <p class="item-title">generic keyboard title</p>
-                <p class="item-content">perfekt för gaming och att arbeta på. trevliga features är taktila, clicky brytare för att få en skön känsla
-                tillsammans med trevligt ljud.</p>
-                <label class="item-price">pris: 1199kr</label>
-            </article>
-        </div>
-        <div class="item-popular">
-            <div class="item-popular-img">
-                <img src="pics/keyboard_disco_small.png">
+                <img src="pics/keyboard_disco_small.png" id="floatImgLeft">
             </div>
             <article>
                 <p class="item-title">generic keyboard title</p>
@@ -89,6 +90,10 @@
             </article>
         </div>
 
+        <!--<img src="pics/rwd.png">-->
+        <div id="centerDiv">
+            <span id="centerDivText">Specifikation</span>
+        </div>
         <article>
             <p>
             </p>
@@ -96,9 +101,9 @@
         <br>
         </main>
         <footer>
-            victor zamora cruz - 2017/09/17
+            Victor Zamora Cruz - 2017/09/17
         </footer>
-        </div> <!-- end wrapper -->
+        </div> <!-- End wrapper -->
     </body>
 
 </html>
